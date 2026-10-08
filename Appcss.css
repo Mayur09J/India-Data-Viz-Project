@@ -1,0 +1,38 @@
+.stHeading h1 {
+    color: white;            /* Change this to your preferred title color */
+    font-size: 42px;           /* Optional: Adjust title font size */
+    font-weight: bold;         /* Optional: Make title bold */
+    text-align: center;        /* Optional: Center the title */
+    }
+
+
+    /* This targets all buttons in your app */
+    .stButton button {
+     background-color: #4CAF50; /* Change this to your preferred Hex color */
+     color: white;              /* Text color */
+     border-radius: 8px;        /* Optional: Rounds the button corners */
+     border: none;
+    }
+
+    /* This changes the color when you hover over the button */
+.stButton button:hover {
+    background-color: #45a049; /* Slightly darker shade on hover */
+    color: white;
+}
+
+/* Appcss.css */
+
+/* Title & Button styles remain at the top... */
+.stHeading h1 { color: white; font-size: 40px; }
+.stButton button { background-color: #4CAF50; color: white; border-radius: 8px; }
+
+/* --- GEOGRAPHICAL MAP CONTAINER STYLING --- */
+/* This targets the wrapper div around your map widget */
+.stPlotlyChart {
+    border-radius: 16px;       /* Controls how rounded the corners are */
+    overflow: hidden;          /* CRITICAL: Clips the sharp map corners to match the border */
+    border: 1px solid #e0e0e0; /* Optional: Adds a subtle light border frame around the map */
+}
+
+
+
